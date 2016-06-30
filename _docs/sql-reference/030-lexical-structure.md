@@ -157,7 +157,7 @@ Strings are characters enclosed in single quotation marks. To use a single quota
     +------------+
     2 rows selected (0.053 seconds)
 
-To refer to the string Martha's Vineyard in a query, use single quotation marks to enclose the string and escape the apostophe using a single quotation mark:
+To refer to the string Martha's Vineyard in a query, use single quotation marks to enclose the string and escape the apostrophe using a single quotation mark:
 
     SELECT * FROM dfs.`/Users/drilluser/vitalstat.json` t 
     WHERE t.source = 'Martha''s Vineyard';
