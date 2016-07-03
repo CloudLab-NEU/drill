@@ -220,11 +220,11 @@ This example uses a list of BIGINT data as input and returns a repeated list of 
 This example uses a map as input to return a repeated list vector (JSON).
 
     SELECT CONVERT_FROM('[{a : 100, b: 200}, {a:300, b: 400}]' ,'JSON') AS MYCOL1  FROM (VALUES(1));
-    +--------------------+
-    |       MYCOL1       |
-    +--------------------+
-    | [[1,2],[3,4],[5]]  |
-    +--------------------+
+    +----------------------------------------+
+    |                 MYCOL1                 |
+    +----------------------------------------+
+    | [{"a":100,"b":200},{"a":300,"b":400}]  |
+    +----------------------------------------+
     1 row selected (0.141 seconds)
 
 ### Set Up a Storage Plugin for Working with HBase
