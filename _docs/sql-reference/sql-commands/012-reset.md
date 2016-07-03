@@ -16,9 +16,6 @@ The RESET command supports the following syntax:
 *option_name*  
 This is the option name as it appears in the systems table.
 
-*value*  
-A value of the type listed in the sys.options table: number, string, boolean,
-or float. Use the appropriate value type for each option that you set.
 
 ## Usage Notes
 You can use the ALTER SESSION RESET command, however ALTER SESSION is just an alias for the RESET command. Use the RESET command to change Drill query planning and execution
